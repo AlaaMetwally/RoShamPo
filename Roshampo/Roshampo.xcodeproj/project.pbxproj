@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9313DC9521D17CE8006916DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9313DC9421D17CE8006916DB /* AppDelegate.swift */; };
+		9313DC9721D17CE8006916DB /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9313DC9621D17CE8006916DB /* ChoiceViewController.swift */; };
+		9313DC9A21D17CE8006916DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9313DC9821D17CE8006916DB /* Main.storyboard */; };
+		9313DC9D21D17CE8006916DB /* Roshampo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9313DC9B21D17CE8006916DB /* Roshampo.xcdatamodeld */; };
+		9313DC9F21D17CE9006916DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9313DC9E21D17CE9006916DB /* Assets.xcassets */; };
+		9313DCA221D17CE9006916DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9313DCA021D17CE9006916DB /* LaunchScreen.storyboard */; };
+		9313DCAD21D17CEA006916DB /* RoshampoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9313DCAC21D17CEA006916DB /* RoshampoTests.swift */; };
+		93ECA4E021D7A7E600BD50D0 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ECA4DF21D7A7E600BD50D0 /* ResultsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9313DCA921D17CEA006916DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9313DC8921D17CE8006916DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9313DC9021D17CE8006916DB;
+			remoteInfo = Roshampo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9313DC9121D17CE8006916DB /* Roshampo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshampo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9313DC9421D17CE8006916DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9313DC9621D17CE8006916DB /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		9313DC9921D17CE8006916DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9313DC9C21D17CE8006916DB /* Roshampo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Roshampo.xcdatamodel; sourceTree = "<group>"; };
+		9313DC9E21D17CE9006916DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9313DCA121D17CE9006916DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9313DCA321D17CE9006916DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9313DCA821D17CEA006916DB /* RoshampoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshampoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9313DCAC21D17CEA006916DB /* RoshampoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshampoTests.swift; sourceTree = "<group>"; };
+		9313DCAE21D17CEA006916DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93ECA4DF21D7A7E600BD50D0 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9313DC8E21D17CE8006916DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9313DCA521D17CEA006916DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9313DC8821D17CE8006916DB = {
+			isa = PBXGroup;
+			children = (
+				9313DC9321D17CE8006916DB /* Roshampo */,
+				9313DCAB21D17CEA006916DB /* RoshampoTests */,
+				9313DC9221D17CE8006916DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9313DC9221D17CE8006916DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9313DC9121D17CE8006916DB /* Roshampo.app */,
+				9313DCA821D17CEA006916DB /* RoshampoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9313DC9321D17CE8006916DB /* Roshampo */ = {
+			isa = PBXGroup;
+			children = (
+				9313DC9421D17CE8006916DB /* AppDelegate.swift */,
+				9313DC9621D17CE8006916DB /* ChoiceViewController.swift */,
+				93ECA4DF21D7A7E600BD50D0 /* ResultsViewController.swift */,
+				9313DC9821D17CE8006916DB /* Main.storyboard */,
+				9313DC9E21D17CE9006916DB /* Assets.xcassets */,
+				9313DCA021D17CE9006916DB /* LaunchScreen.storyboard */,
+				9313DCA321D17CE9006916DB /* Info.plist */,
+				9313DC9B21D17CE8006916DB /* Roshampo.xcdatamodeld */,
+			);
+			path = Roshampo;
+			sourceTree = "<group>";
+		};
+		9313DCAB21D17CEA006916DB /* RoshampoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9313DCAC21D17CEA006916DB /* RoshampoTests.swift */,
+				9313DCAE21D17CEA006916DB /* Info.plist */,
+			);
+			path = RoshampoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9313DC9021D17CE8006916DB /* Roshampo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9313DCB121D17CEA006916DB /* Build configuration list for PBXNativeTarget "Roshampo" */;
+			buildPhases = (
+				9313DC8D21D17CE8006916DB /* Sources */,
+				9313DC8E21D17CE8006916DB /* Frameworks */,
+				9313DC8F21D17CE8006916DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roshampo;
+			productName = Roshampo;
+			productReference = 9313DC9121D17CE8006916DB /* Roshampo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9313DCA721D17CEA006916DB /* RoshampoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9313DCB421D17CEA006916DB /* Build configuration list for PBXNativeTarget "RoshampoTests" */;
+			buildPhases = (
+				9313DCA421D17CEA006916DB /* Sources */,
+				9313DCA521D17CEA006916DB /* Frameworks */,
+				9313DCA621D17CEA006916DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9313DCAA21D17CEA006916DB /* PBXTargetDependency */,
+			);
+			name = RoshampoTests;
+			productName = RoshampoTests;
+			productReference = 9313DCA821D17CEA006916DB /* RoshampoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9313DC8921D17CE8006916DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Geek;
+				TargetAttributes = {
+					9313DC9021D17CE8006916DB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9313DCA721D17CEA006916DB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9313DC9021D17CE8006916DB;
+					};
+				};
+			};
+			buildConfigurationList = 9313DC8C21D17CE8006916DB /* Build configuration list for PBXProject "Roshampo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9313DC8821D17CE8006916DB;
+			productRefGroup = 9313DC9221D17CE8006916DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9313DC9021D17CE8006916DB /* Roshampo */,
+				9313DCA721D17CEA006916DB /* RoshampoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9313DC8F21D17CE8006916DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9313DCA221D17CE9006916DB /* LaunchScreen.storyboard in Resources */,
+				9313DC9F21D17CE9006916DB /* Assets.xcassets in Resources */,
+				9313DC9A21D17CE8006916DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9313DCA621D17CEA006916DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9313DC8D21D17CE8006916DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9313DC9721D17CE8006916DB /* ChoiceViewController.swift in Sources */,
+				9313DC9D21D17CE8006916DB /* Roshampo.xcdatamodeld in Sources */,
+				9313DC9521D17CE8006916DB /* AppDelegate.swift in Sources */,
+				93ECA4E021D7A7E600BD50D0 /* ResultsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9313DCA421D17CEA006916DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9313DCAD21D17CEA006916DB /* RoshampoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9313DCAA21D17CEA006916DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9313DC9021D17CE8006916DB /* Roshampo */;
+			targetProxy = 9313DCA921D17CEA006916DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9313DC9821D17CE8006916DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9313DC9921D17CE8006916DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9313DCA021D17CE9006916DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9313DCA121D17CE9006916DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9313DCAF21D17CEA006916DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9313DCB021D17CEA006916DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9313DCB221D17CEA006916DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Roshampo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.udacity.Roshampo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9313DCB321D17CEA006916DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Roshampo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.udacity.Roshampo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9313DCB521D17CEA006916DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoshampoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.udacity.RoshampoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roshampo.app/Roshampo";
+			};
+			name = Debug;
+		};
+		9313DCB621D17CEA006916DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoshampoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.udacity.RoshampoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roshampo.app/Roshampo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9313DC8C21D17CE8006916DB /* Build configuration list for PBXProject "Roshampo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9313DCAF21D17CEA006916DB /* Debug */,
+				9313DCB021D17CEA006916DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9313DCB121D17CEA006916DB /* Build configuration list for PBXNativeTarget "Roshampo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9313DCB221D17CEA006916DB /* Debug */,
+				9313DCB321D17CEA006916DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9313DCB421D17CEA006916DB /* Build configuration list for PBXNativeTarget "RoshampoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9313DCB521D17CEA006916DB /* Debug */,
+				9313DCB621D17CEA006916DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9313DC9B21D17CE8006916DB /* Roshampo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9313DC9C21D17CE8006916DB /* Roshampo.xcdatamodel */,
+			);
+			currentVersion = 9313DC9C21D17CE8006916DB /* Roshampo.xcdatamodel */;
+			path = Roshampo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9313DC8921D17CE8006916DB /* Project object */;
+}
